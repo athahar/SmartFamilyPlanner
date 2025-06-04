@@ -35,15 +35,15 @@ This project **solves that** with:
 - Simple mobile-friendly UI (vanilla HTML/CSS/JS)
 - Memory log shown in UI for debugging/explainability
 
-### ✅ Current Agents
+### ✅ Current done
 
 | Agent | Role | Notes |
 |-------|------|-------|
 | `weatherAgent` | Summarizes real-time weather for planning | Uses OpenWeather API |
 | `eventAgent` | Suggests events based on city & preferences | Currently mocked |
 | `activityAgent` | Orchestrates all agents + calls LLM | Handles memory, retry logic |
-| `timeUtil.js` | Utility to check daytime vs nighttime | Used by activityAgent |
-| `frontend UI` | HTML/CSS/JS app with structured result display | Fully mobile-friendly |
+| `timeUtil.js (not an agent)` | Utility to check daytime vs nighttime | Used by activityAgent |
+| `frontend UI (not an agent)` | HTML/CSS/JS app with structured result display | Fully mobile-friendly |
 
 ---
 
